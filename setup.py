@@ -2,13 +2,13 @@
 from setuptools import setup, find_packages
 from pip.req import parse_requirements
 
-version = "0.1"
+version = '0.0.1'
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
 	name='messaging_mattermost',
 	version=version,
-	description='Mattermost client for Frappe framework',
+	description='Mattermost client for Frappe',
 	author='Semilimes',
 	author_email='valeriy.osipov@semilimes.com',
 	packages=find_packages(),
